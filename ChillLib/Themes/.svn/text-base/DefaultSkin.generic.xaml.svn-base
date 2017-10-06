@@ -1,0 +1,57 @@
+﻿<ResourceDictionary x:Class="ChillLib.DefaultSkin"
+                    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+					xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:cl="http://chillcode.com/chill">
+<!--
+    ButtonChrome setion resources declared here.
+-->
+    <SolidColorBrush x:Key="{ComponentResourceKey {x:Type cl:CLButton}, {x:Static cl:ColorBrushKeys.ButtonChromeDefaultFillColorBrush}}" Color="#FF232CA3"/>
+
+    <SolidColorBrush x:Key="{ComponentResourceKey {x:Type cl:CLButton}, {x:Static cl:ColorBrushKeys.ButtonChromeForegroundBrush}}" Color="#FFFFDFA7"/>
+
+    <LinearGradientBrush x:Key="{ComponentResourceKey {x:Type cl:CLButton}, {x:Static cl:ColorBrushKeys.ButtonChromeDefaultTopSheenBrush}}" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#C500748C" Offset="0"/>
+        <GradientStop Color="#15015A6C" Offset="1"/>
+        <GradientStop Color="#6B006A80" Offset="0.496"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="{ComponentResourceKey {x:Type cl:CLButton}, {x:Static cl:ColorBrushKeys.ButtonChromeDefaultInnerBorderBrush}}" Color="#AAFFFFFF"/>
+
+    <SolidColorBrush x:Key="{ComponentResourceKey {x:Type cl:CLButton}, {x:Static cl:ColorBrushKeys.ButtonChromeDefaultBorderBrush}}" Color="Black"/>
+
+    <LinearGradientBrush x:Key="{ComponentResourceKey {x:Type cl:CLButton}, {x:Static cl:ColorBrushKeys.ButtonChromeMouseHoverTopSheenBrush}}" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#C59FCAD2" Offset="0"/>
+        <GradientStop Color="#15015A6C" Offset="1"/>
+        <GradientStop Color="#6B81B3BD" Offset="0.496"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="{ComponentResourceKey {x:Type cl:CLButton}, {x:Static cl:ColorBrushKeys.ButtonChromeMouseHoverInnerBorderBrush}}" Color="#D5F6A800"/>
+
+    <LinearGradientBrush x:Key="{ComponentResourceKey {x:Type cl:CLButton}, {x:Static cl:ColorBrushKeys.ButtonChromePressedStateTopSheenBrush}}" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#009FCAD2" Offset="0"/>
+        <GradientStop Color="#D6015A6C" Offset="1"/>
+        <GradientStop Color="#6B81B3BD" Offset="0.496"/>
+    </LinearGradientBrush>
+<!--
+    UIELement setion declared here.
+-->
+    <SolidColorBrush x:Key="{ComponentResourceKey {x:Type UIElement}, {x:Static cl:ColorBrushKeys.UIElementSelectedBackgroundBrush}}" Color="#FF232CA3"/>
+
+    <LinearGradientBrush x:Key="{ComponentResourceKey {x:Type UIElement}, {x:Static cl:ColorBrushKeys.UIElementSelectedTopSheenBrush}}" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#B6FFFFFF" Offset="0"/>
+        <GradientStop Color="#22FFFFFF" Offset="0.466"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="{ComponentResourceKey {x:Type UIElement}, {x:Static cl:ColorBrushKeys.UIElementMouseHoverBackgroundBrush}}" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#3D2E2976" Offset="0"/>
+        <GradientStop Color="#7E0012FF" Offset="1"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="{ComponentResourceKey {x:Type UIElement}, {x:Static cl:ColorBrushKeys.UIElementSelectedForegroundBrush}}" Color="#FFFFFFFF"/>
+
+    <SolidColorBrush x:Key="{ComponentResourceKey {x:Type UIElement}, {x:Static cl:ColorBrushKeys.UIElementOuterBorderColorBrush}}" Color="#FF0088F8"/>
+
+    <SolidColorBrush x:Key="{ComponentResourceKey {x:Type UIElement}, {x:Static cl:ColorBrushKeys.UIElementInnerBorderColorBrush}}" Color="#B7FFFFFF"/>
+
+
+</ResourceDictionary>
